@@ -1,0 +1,13 @@
+*{
+    padding: 12px 70px;
+}
+
+.title{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(109, 107, 107);
+}
+
+.links{
+    text-decoration:none;
+}
