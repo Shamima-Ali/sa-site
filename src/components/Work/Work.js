@@ -3,74 +3,28 @@ import './Work.css'
 import { Card } from 'react-bootstrap'
 import gamePic from './gamePic.png'
 import sun from './sun.jpeg'
-import k8s from './k8s.png'
-import appPic from './App-pic.png'
+
+// TODO:
+// ADD LINKS TO THREE LINKS
+// ADD LINK TO BOOK AND TED VideoPlaybackQuality
+// CREATE GITHUB PAGE FOR THE REMINDER APP
+// TALK ABOUT ATTENDING DOCKERCON, CYBERSECURITY THING and more hackathons 
 
 const Work = () => {
     return (
         <>
-        <Card>
-            <Card.Img variant="top" src={appPic} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
-            <Card.Body>
-            <Card.Title ><a href="https://devpost.com/software/beach-please-2cyhd4?ref_content=my-projects-tab&ref_feature=my_projects" className="card-title">Beach Please</a></Card.Title>
-            <Card.Text className="card-text">
-                <p>
-                    Created during the AhoyHacks hackathon from 13-15 May 2022
-                </p>
-                <p>
-                    This app was created using React as the front and python flask as the server. The server talks to an 
-                    external API to retrieve recorded ocean tide heights which are displayed in the form of a chart.
-                </p>
-                <p>
-                    What it does:
-                    <ul>- user selects a location </ul>
-                    <ul>- based on the selection, a chart showing recent ocean tide heights are displayed</ul>
-                </p> 
-
-                <p>
-                    What I learned creating this app:
-                    <ul>- working with python-flask</ul>
-                </p>
-            </Card.Text>
-            </Card.Body>
-
-            </Card>
-            <Card>
-            <Card.Img variant="top" src={k8s} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
-            <Card.Body>
-            <Card.Title>Kubernetes Master Class by <a href="https://www.netapp.com/cloud-services/k8s-kubernetes-solutions-innovations/" className="card-title">NetApp</a></Card.Title>
-            <Card.Text className="card-text">
-                <p>
-                    Attended a Kubernetes Master Class hosted by NetApp in May 2022
-                </p>
-                <p>
-                    This master class was an introduction to kubernetes. 
-                </p>
-                <p>
-                    Through this masterclass, I learned:
-                    <ul>- stateful vs stateless applications </ul>
-                    <ul>- Storage classes - ask for storage</ul>
-                    <ul>- PersistentVolumeClaims - is used by the CSI to expose block storage on kubernetes through the use of PersistentVolume in kubernetes</ul>
-                    <ul>- Volume snapshot class - ask for data in storage</ul>
-                    <ul>- Volume snapshot - a request for data from a developer that is then delivered as Volume Snapshot Content by CSI provisioner from the Persistent Storage</ul>
-                </p> 
-            </Card.Text>
-            </Card.Body>
-
-            </Card>
-
             <Card>
             <Card.Img variant="top" src={sun} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
             <Card.Body>
             <Card.Title ><a href="https://shamima-ali.github.io/reminder-app/" className="card-title">Reminder App</a></Card.Title>
             <Card.Text className="card-text">
                 <p>
-                    Created in May 2021 and published in May 2022
+                    Created in Dec 202 and published in May 2022
                 </p>
                 <p>
                     This app was created using Angular. I learned a bit of Angular during my volunteer work as a Software Dev 
                     in Paradigm Boring at Memorial University. 
-                    Being a skincare enthusiast, I got the idea of this app during a hackathon in the summer of 2021 but was unable to 
+                    Being a skincare enthusiast, I got the idea of this app during a hackathon but was unable to 
                     finish on time as I was not very familiar with Angular. I then took it up as a challenge to learn Angular well 
                     enough to finish this project.
                 </p>
