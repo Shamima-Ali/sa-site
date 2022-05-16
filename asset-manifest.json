@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sa-site/static/css/main.5dcfe7bf.chunk.css",
-    "main.js": "/sa-site/static/js/main.fafbf70a.chunk.js",
-    "main.js.map": "/sa-site/static/js/main.fafbf70a.chunk.js.map",
+    "main.js": "/sa-site/static/js/main.a146ff7f.chunk.js",
+    "main.js.map": "/sa-site/static/js/main.a146ff7f.chunk.js.map",
     "runtime-main.js": "/sa-site/static/js/runtime-main.ede9dd19.js",
     "runtime-main.js.map": "/sa-site/static/js/runtime-main.ede9dd19.js.map",
     "static/css/2.0a9ec390.chunk.css": "/sa-site/static/css/2.0a9ec390.chunk.css",
@@ -13,13 +13,14 @@
     "index.html": "/sa-site/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/sa-site/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.5dcfe7bf.chunk.css.map": "/sa-site/static/css/main.5dcfe7bf.chunk.css.map",
-    "static/js/2.151ef8fb.chunk.js.LICENSE.txt": "/sa-site/static/js/2.151ef8fb.chunk.js.LICENSE.txt"
+    "static/js/2.151ef8fb.chunk.js.LICENSE.txt": "/sa-site/static/js/2.151ef8fb.chunk.js.LICENSE.txt",
+    "static/media/App-pic.2147a40d.png": "/sa-site/static/media/App-pic.2147a40d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ede9dd19.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.151ef8fb.chunk.js",
     "static/css/main.5dcfe7bf.chunk.css",
-    "static/js/main.fafbf70a.chunk.js"
+    "static/js/main.a146ff7f.chunk.js"
   ]
 }
