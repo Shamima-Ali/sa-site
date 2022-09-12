@@ -36,29 +36,6 @@ const Work = () => {
 
             </Card>
             <Card>
-            <Card.Img variant="top" src={k8s} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
-            <Card.Body>
-            <Card.Title>Kubernetes Master Class by <a href="https://www.netapp.com/cloud-services/k8s-kubernetes-solutions-innovations/" className="card-title">NetApp</a></Card.Title>
-            <Card.Text className="card-text">
-                <p>
-                    Attended a Kubernetes Master Class hosted by NetApp in May 2022
-                </p>
-                <p>
-                    This master class was an introduction to kubernetes. 
-                </p>
-                <p>
-                    Through this masterclass, I learned:
-                    <ul>- stateful vs stateless applications </ul>
-                    <ul>- Storage classes - ask for storage</ul>
-                    <ul>- PersistentVolumeClaims - is used by the CSI to expose block storage on kubernetes through the use of PersistentVolume in kubernetes</ul>
-                    <ul>- Volume snapshot class - ask for data in storage</ul>
-                    <ul>- Volume snapshot - a request for data from a developer that is then delivered as Volume Snapshot Content by CSI provisioner from the Persistent Storage</ul>
-                </p> 
-            </Card.Text>
-            </Card.Body>
-
-            </Card>
-            <Card>
             <Card.Img variant="top" src={sun} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
             <Card.Body>
             <Card.Title ><a href="https://shamima-ali.github.io/reminder-app/" className="card-title">Reminder App</a></Card.Title>

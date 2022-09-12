@@ -21,15 +21,12 @@ const Description = () => {
                     <h3 style={{textAlign: "center"}}>
                         Final year Computer Engineering student at Memorial University
                     </h3>
+
                     <p style={{textAlign: "center"}}>
-                        <Typist cursor={{show: false }} onCharacterTyped={console.log("here")}>
-                            <h4> Born in Bangladesh 🇧🇩,  Grew up in Saudi Arabia 🇸🇦,  Currently in Canada 🇨🇦. </h4>
-                        </Typist>
-                    </p>
-                    <p style={{textAlign: "center"}}>
-                        <h5>I completed four work terms and I'm currently looking 
-                            for a work term in the Fall. I'm also open to returning as full-time after I 
-                            graduate in April 2023. Below are some of past projects and works that have helped me
+                        <h5>I completed four work terms and currently on my fifth and final 
+                            work term. I graduate in April 2023 and I am open to full-time 
+                            remote/in-person positions as Software Developer/Engineer.
+                            Below are some of past projects and works that have helped me
                             grow as a developer.
                         </h5>
                     </p>
