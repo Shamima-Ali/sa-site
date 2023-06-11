@@ -3,12 +3,37 @@ import './Work.css'
 import { Card } from 'react-bootstrap'
 import gamePic from './gamePic.png'
 import sun from './sun.jpeg'
-import k8s from './k8s.png'
 import appPic from './App-pic.png'
+import micPic from './microphone-pic.png'
 
 const Work = () => {
     return (
-        <>
+        <>    
+        <Card>
+            <Card.Img variant="top" src={micPic} style={{ width: '10rem', marginLeft: 'auto', marginRight: 'auto' }} />
+            <Card.Body>
+            <Card.Title ><a href="https://github.com/Shamima-Ali/ai-voice" className="card-title">AI Voice Assistant</a></Card.Title>
+            <Card.Text className="card-text">
+                <p>
+                    Created in Fall 2022
+                </p>
+                <p>
+                    This program was created using the neuralintents library in pypi that is used to control a todo list through voice commands.
+                </p>
+                <p>
+                    What it does:
+                    <ul>- user provides a voice command </ul>
+                    <ul>- software creates, removes and reads items from a todo list</ul>
+                </p> 
+
+                <p>
+                    What I learned creating this app:
+                    <ul>- working with the neuralintents</ul>
+                </p>
+            </Card.Text>
+            </Card.Body>
+
+            </Card>
         <Card>
             <Card.Img variant="top" src={appPic} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
             <Card.Body>
