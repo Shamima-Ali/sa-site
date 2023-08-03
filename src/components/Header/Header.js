@@ -9,7 +9,7 @@ const Header = () => {
             <Row className="justify-content-md-center">
                 <Col md="auto">
                 <p className="title">
-                    <a href="mailto: snali@mun.ca" className="links">MY EMAIL 📥</a>
+                    <a href="mailto: snali@mun.ca" className="links">MY EMAIL📥</a>
                 </p>
                 </Col>
                 <Col md="auto">

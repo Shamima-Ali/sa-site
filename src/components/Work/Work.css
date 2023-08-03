@@ -1,6 +1,7 @@
 .card-title{
     font-size: 20px;
     padding: 0px;
+    color: blue;
 }
 
 .card-text{
@@ -14,4 +15,10 @@
     font-size: 15px;
     margin-left: 'auto';
     margin-right: 'auto' ;
+}
+
+.text-link{
+    padding-left: 2px;
+    padding-right: 2px;
+    color: blue;
 }

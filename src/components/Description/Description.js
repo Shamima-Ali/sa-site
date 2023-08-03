@@ -8,22 +8,22 @@ const Description = () => {
   
     return (
         <>
-        <Container fluid>
-            <Row className="justify-content-md-center">
+        <Container className="desc" fluid>
+            <Row className="justify-content-md-left">
                 <Col md="auto">
-                    <h1 style={{textAlign: "center"}}>Hi, I am Shamima Ali👋 </h1>
+                    <h1 style={{textAlign: "left", fontStyle: "bold"}}>Hi, I am Shamima Ali 👋 </h1>
                 </Col>
 
                 <Col md="auto">
-                    <h3 style={{textAlign: "center"}}>
-                        Computer Engineering graduate from Memorial University
+                    <h3 style={{textAlign: "left"}}>
+                        Computer Engineering Graduate from Memorial University 
                     </h3>
 
-                    <p style={{textAlign: "center"}}>
-                        <h5>I completed five work terms during my computer engineering degree. I graduated in May 2023 and I am open to full-time 
-                            remote/in-person positions as Software Developer/Engineer in Canada.
-                            Below are some of past projects and works that have helped me
-                            grow as a developer.
+                    <p style={{textAlign: "left"}}>
+                        <h5>I have a year's worth of full stack development experience through work terms during 
+                            my computer engineering degree. I graduated in May 2023 and I am open to full-time 
+                            positions as Software Developer/Engineer in Canada.
+                            Below are my projects that have helped me grow as a developer.
                         </h5>
                     </p>
                 </Col>
