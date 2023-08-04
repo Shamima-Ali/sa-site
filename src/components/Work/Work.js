@@ -10,6 +10,7 @@ import elevPiv from './elevator-pic.png'
 import k8s from './k8s.png'
 
 const links = {
+    AFFL: "https://github.com/Affluence-lab",
     ELEV: "https://github.com/Shamima-Ali/elevator-algorithm",
     AES: "http://18.234.141.243/",
     cloudinary: "https://cloudinary.com/ip/gr-sea-gg-brand-home-base?utm_source=google&utm_medium=search&utm_campaign=goog_selfserve_brand_wk22_replicate_core_branded_keyword&utm_term=1329&campaignid=18164753405&adgroupid=144188713167&keyword=cloudinary&device=c&matchtype=e&adposition=&gad=1&gclid=Cj0KCQjwoK2mBhDzARIsADGbjeo8c6NeNKg5StBBt8ZYFC6Lh0TwP7oPFJP0J6iwM8yvQ8HcxnoHi7caAtigEALw_wcB",
@@ -23,7 +24,18 @@ const links = {
 
 const Work = () => {
     return (
-        <>
+        <>            
+        <Card>
+        <Card.Body>
+        <Card.Title ><a href={links.AFFL} className="card-title">Affluence (Co-founder)</a></Card.Title>
+        <Card.Text className="card-text">
+            <p>
+                A brand management system for influencers...Coming Soon!
+            </p>
+        </Card.Text>
+        </Card.Body>
+        </Card>
+
             <Card>
             <Card.Img variant="top" src={elevPiv} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
             <Card.Body>

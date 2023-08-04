@@ -18,8 +18,11 @@ const Description = () => {
                     <h3 style={{textAlign: "left"}}>
                         Computer Engineering Graduate from Memorial University 
                     </h3>
+                    <h4 style={{textAlign: "left"}}>
+                        Co-founder of Affluence
+                    </h4>
 
-                    <p style={{textAlign: "left"}}>
+                    <p style={{textAlign: "left", fontStyle: "bold"}}>
                         <h5>I have a year's worth of full stack development experience through work terms during 
                             my computer engineering degree. I graduated in May 2023 and I am open to full-time 
                             positions as Software Developer/Engineer in Canada.
