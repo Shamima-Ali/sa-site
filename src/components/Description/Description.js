@@ -18,9 +18,6 @@ const Description = () => {
                     <h3 style={{textAlign: "left"}}>
                         Computer Engineering Graduate from Memorial University 
                     </h3>
-                    <h4 style={{textAlign: "left"}}>
-                        Co-founder of Affluence
-                    </h4>
 
                     <p style={{textAlign: "left", fontStyle: "bold"}}>
                         <h5>I have a year's worth of full stack development experience through work terms during 
