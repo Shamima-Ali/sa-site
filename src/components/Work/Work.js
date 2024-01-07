@@ -53,7 +53,7 @@ const Work = () => {
             <Card>
             <Card.Img variant="top" src={trolleyPic} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
             <Card.Body>
-            <Card.Title ><a href={links.AES} className="card-title">An Ecomerce Site</a></Card.Title>
+            <Card.Title ><a href={links.AES} className="card-title">An Ecommerce Site</a></Card.Title>
             <Card.Text className="card-text">
                 <p>
                     Created in the Spring of 2023
