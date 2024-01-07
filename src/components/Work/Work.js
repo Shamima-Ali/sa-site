@@ -11,7 +11,7 @@ import k8s from './k8s.png'
 
 const links = {
     ELEV: "https://github.com/Shamima-Ali/elevator-algorithm",
-    AES: "http://18.234.141.243/",
+    AES: "http://54.210.94.102/",
     cloudinary: "https://cloudinary.com/ip/gr-sea-gg-brand-home-base?utm_source=google&utm_medium=search&utm_campaign=goog_selfserve_brand_wk22_replicate_core_branded_keyword&utm_term=1329&campaignid=18164753405&adgroupid=144188713167&keyword=cloudinary&device=c&matchtype=e&adposition=&gad=1&gclid=Cj0KCQjwoK2mBhDzARIsADGbjeo8c6NeNKg5StBBt8ZYFC6Lh0TwP7oPFJP0J6iwM8yvQ8HcxnoHi7caAtigEALw_wcB",
     AVA: "https://github.com/Shamima-Ali/ai-voice",
     neuralintents: "https://pypi.org/project/neuralintents/0.0.2/",
@@ -53,7 +53,7 @@ const Work = () => {
             <Card>
             <Card.Img variant="top" src={trolleyPic} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
             <Card.Body>
-            <Card.Title ><a href={links.AES} className="card-title">Another Ecomerce Site</a></Card.Title>
+            <Card.Title ><a href={links.AES} className="card-title">An Ecomerce Site</a></Card.Title>
             <Card.Text className="card-text">
                 <p>
                     Created in the Spring of 2023
