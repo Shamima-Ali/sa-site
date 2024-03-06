@@ -20,10 +20,9 @@ const Description = () => {
                     </h3>
 
                     <p style={{textAlign: "left", fontStyle: "bold"}}>
-                        <h5>I have a year's worth of full stack development experience through work terms during 
-                            my computer engineering degree. I graduated in May 2023 and I am open to full-time 
-                            positions as Software Developer/Engineer in Canada.
-                            Below are my projects that have helped me grow as a developer.
+                        <h5>I had five work terms during my computer engineering degree. 
+                            I graduated in 2023 and I am open to full-time 
+                            positions in Canada.
                         </h5>
                     </p>
                 </Col>
