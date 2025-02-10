@@ -8,8 +8,10 @@ import micPic from './microphone-pic.png'
 import trolleyPic from './Trolley-pic.png'
 import elevPiv from './elevator-pic.png'
 import k8s from './k8s.png'
+import ws from './webserver.jpg'
 
 const links = {
+    WEBS: "https://github.com/Shamima-Ali/webwerver",
     ELEV: "https://github.com/Shamima-Ali/elevator-algorithm",
     AES: "http://54.210.94.102/",
     cloudinary: "https://cloudinary.com/ip/gr-sea-gg-brand-home-base?utm_source=google&utm_medium=search&utm_campaign=goog_selfserve_brand_wk22_replicate_core_branded_keyword&utm_term=1329&campaignid=18164753405&adgroupid=144188713167&keyword=cloudinary&device=c&matchtype=e&adposition=&gad=1&gclid=Cj0KCQjwoK2mBhDzARIsADGbjeo8c6NeNKg5StBBt8ZYFC6Lh0TwP7oPFJP0J6iwM8yvQ8HcxnoHi7caAtigEALw_wcB",
@@ -23,7 +25,38 @@ const links = {
 
 const Work = () => {
     return (
-        <>            
+        <>  
+            <Card>
+            <Card.Img variant="top" src={ws} style={{ width: '16rem', marginLeft: 'auto', marginRight: 'auto' }} />
+            <Card.Body>
+            <Card.Title ><a href={links.WEBS} className="card-title">Mini Web Server</a></Card.Title>
+            <Card.Text className="card-text">
+                <p>
+                    Created January 2025
+                </p>
+                <p>
+                    I built a web server (I am calling it web werver) 
+                    to serve a simple index.html file with two input fields that
+                    multiplies values. I used C++ and added CGI scripting. This 
+                    allows the server to serve the index.html file and process
+                    data from the webpage (e.g., multiplying two numbers).
+                    I made a blog post detailing the code behind the server:
+                    <a href="https://codingprojects.substack.com/p/i-built-a-web-server">
+                        Read on Substack
+                    </a>
+                </p>
+                <p>
+                    What it does:
+                    <ul>- communicate with the client using TCP IPv4 connection </ul>
+                    <ul>- serve multiple client requests </ul>
+                    <ul>- displays an index.html page that has two user input fields </ul>
+                    <ul>- multiplies the two user input values and displays the result </ul>
+                </p> 
+            </Card.Text>
+            </Card.Body>
+            </Card>
+                
+                
             <Card>
             <Card.Img variant="top" src={elevPiv} style={{ width: '13rem', marginLeft: 'auto', marginRight: 'auto' }} />
             <Card.Body>

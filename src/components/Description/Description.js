@@ -26,7 +26,6 @@ const Description = () => {
                         </h5>
                     </p>
                 </Col>
-
             </Row>
         </Container>
         </>

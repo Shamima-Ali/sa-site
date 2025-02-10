@@ -13,8 +13,10 @@ function App() {
        <Header />
         <Description />
         <Work />
+        <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
         <Footer />
-        
+
     </div>
   );
 }
